@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -13,7 +14,17 @@ import { RegistroComponent } from './registro/registro.component';
     RegistroComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule
+    
+  ],
+  exports:[
+    HeaderComponent,
+    LoginComponent,
+    RegistroComponent
   ]
+
+  
 })
 export class CoponentsModule { }

@@ -10,12 +10,12 @@ import { CoponentsModule } from './coponents/coponents.module';
 import { PagesModule } from './pages/pages.module';
 
 var config = {
-  apiKey: Environment.firebase.apiKey,
+   apiKey: Environment.firebase.apiKey,
   authDomain: Environment.firebase.authDomain,
   projectId: Environment.firebase.projectId,
   storageBucket: Environment.firebase.storageBucket,
   messagingSenderId: Environment.firebase.messagingSenderId,
-}
+ }
 
 
 @NgModule({

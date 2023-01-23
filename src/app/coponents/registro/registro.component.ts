@@ -30,11 +30,11 @@ export class RegistroComponent implements OnInit {
 onSubmit(){
   //console.log(this.forRegistro.value)
   this.userService.registrouser(this.forRegistro.value)
-  .then( response => {
-    console.log(response)
-    this.roter.navigate(['/login']);
-  })
-  .catch( erorr => console.log(erorr));
+   .then( response => {
+   console.log(response)
+     this.roter.navigate(['/login']);
+   })
+   .catch( erorr => console.log(erorr));
 
 }
 }

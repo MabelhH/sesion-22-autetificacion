@@ -1,0 +1,23 @@
+.home{
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 95%;
+    padding: 25px;
+    height: 900px;
+    background-color: rgb(168, 235, 202);
+}
+img{
+    margin-left: 350px;
+}
+p{
+    font-size: 45px;
+    text-align: center;
+
+}
+.boton{
+margin-top: 150px;
+margin-left: 250px;
+width: 250px;
+height: 50px;
+
+}

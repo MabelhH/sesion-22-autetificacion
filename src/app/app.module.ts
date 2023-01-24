@@ -8,6 +8,7 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { CoponentsModule } from './coponents/coponents.module';
 import { PagesModule } from './pages/pages.module';
+import { RouterModule } from '@angular/router';
 
 var config = {
    apiKey: Environment.firebase.apiKey,
@@ -28,7 +29,8 @@ var config = {
     provideFirebaseApp(() => initializeApp(Environment.firebase)),
     provideAuth(() => getAuth()),
     PagesModule,
-    CoponentsModule
+    CoponentsModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

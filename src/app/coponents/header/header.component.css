@@ -1,0 +1,10 @@
+ul,li,a{
+    list-style: none;
+    border-radius: 6px;
+    margin: 5px;
+    
+}
+.menu{
+    background-color: rgb(52, 43, 226);
+
+}

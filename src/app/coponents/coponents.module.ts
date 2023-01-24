@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { RouterLink, RouterLinkActive } from '@angular/router';
 
 
 
@@ -11,18 +12,22 @@ import { FormsModule,ReactiveFormsModule } from '@angular/forms';
   declarations: [
     HeaderComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    HeaderComponent
   ],
   imports: [
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    RouterLink,
+    RouterLinkActive
     
   ],
   exports:[
     HeaderComponent,
     LoginComponent,
-    RegistroComponent
+    RegistroComponent,
+    HeaderComponent
   ]
 
   
